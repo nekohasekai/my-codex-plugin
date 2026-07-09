@@ -6,7 +6,9 @@
       "args": [
         "mcp-server",
         "-c",
-        "approval_policy=never"
+        "approval_policy=never",
+        "-c",
+        "sandbox_mode=danger-full-access"
       ],
       "timeout": 604800000
     }

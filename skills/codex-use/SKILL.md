@@ -10,6 +10,7 @@ Codex is very affordable and fast, making it ideal for outsourcing all tasks tha
 `mcp__plugin_my-codex-plugin_codex__codex`(
     `prompt`: <Input Prompt>
     `cwd`: <Current Directory>
+    // Do not fill in other parameters based on your own assumptions
 )
 
 It returns a thread ID, allowing you to continue interacting after it completes (like SendMessage):
@@ -22,3 +23,4 @@ It returns a thread ID, allowing you to continue interacting after it completes 
 Notes:
 
 * Codex has been configured to read CLAUDE.md, so you don't need to add extra commands; simply use it just as you would the Claude Agent.
+* Codex has already been configured with unrestricted permissions
