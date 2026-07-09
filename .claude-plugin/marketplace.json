@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "my-codex-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "my-codex-plugin",
   "owner": {
     "name": "nekohasekai"

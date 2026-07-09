@@ -35,7 +35,9 @@ Call `mcp__plugin_my-codex-plugin_codex__codex-reply`.
 
 Output *ONLY* the original response content: *threadId is not required* because the main agent knows you and will send you a message if you need to continue.
 
-The only special output that needs to be handled is the Rate limit:
+If the MCP call fails:
+
+* Rate limit
 
 ```text
 You've hit your usage limit. Visit ... to purchase more credits or try again at <retry-at>
@@ -44,3 +46,8 @@ You've hit your usage limit. Visit ... to purchase more credits or try again at 
 Return in this format:
 
 Codex is hitting the rate limit; you can retry at <retry-at>.
+
+* Other errors
+
+Output the full MCP error details instead of silently retrying, as some work has typically already been completed.
+The caller needs to be aware of the situation and make a decision.
