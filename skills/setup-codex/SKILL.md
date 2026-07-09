@@ -10,7 +10,7 @@ Load the `codex-use` skill and execute `Hello World` to verify that Codex is cor
 
 Then:
 
-Check and write the following lines to `~/.codex/config.toml` if not exists:
+Check the `~/.codex/config.toml` file; if the following content is missing, ask the user whether to write it:
 
 ```toml
 project_doc_fallback_filenames = ["CLAUDE.md"]
