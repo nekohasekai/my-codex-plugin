@@ -1,0 +1,10 @@
+{
+  "name": "my-codex-plugin",
+  "displayName": "Codex Plugin",
+  "description": "A plugin that uses OpenAI Codex as an agent",
+  "version": "1.0.0",
+  "author": {
+    "name": "nekohasekai"
+  },
+  "repository": "https://github.com/nekohasekai/my-codex-plugin"
+}
