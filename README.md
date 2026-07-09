@@ -1,5 +1,7 @@
 # my-codex-plugin
 
+Better Codex plugin for Claude Code
+
 ## Usage
 
 ```shell

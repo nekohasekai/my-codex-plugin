@@ -23,4 +23,5 @@ It returns a thread ID, allowing you to continue interacting after it completes 
 Notes:
 
 * Codex has been configured to read CLAUDE.md, so you don't need to add extra commands; simply use it just as you would the Claude Agent.
-* Codex has already been configured with unrestricted permissions
+* Codex has already been configured with unrestricted permissions.
+

@@ -15,7 +15,7 @@ description: |-
 
     If you need to run Codex in the foreground rather than the background, load the `codex-use` skill.
 model: sonnet
-effort: low
+effort: xhigh
 tools: mcp__plugin_my-codex-plugin_codex
 skills: codex-use
 ---
@@ -32,3 +32,12 @@ Call `mcp__plugin_my-codex-plugin_codex__codex-reply`.
 
 Output *ONLY* the original response content: *threadId is not required* because the main agent knows you and will send you a message if you need to continue.
 
+The only special output that needs to be handled is the Rate limit:
+
+```text
+You've hit your usage limit. Visit ... to purchase more credits or try again at <retry-at>
+```
+
+Return in this format:
+
+Codex is hitting the rate limit; you can retry at <retry-at>.
