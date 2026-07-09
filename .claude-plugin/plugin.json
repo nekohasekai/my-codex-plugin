@@ -2,7 +2,7 @@
   "name": "my-codex-plugin",
   "displayName": "Codex Plugin",
   "description": "A plugin that uses OpenAI Codex as an agent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "nekohasekai"
   },
