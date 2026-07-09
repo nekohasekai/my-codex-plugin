@@ -26,6 +26,8 @@ This is not a conversation with you.
 
 Call `mcp__plugin_my-codex-plugin_codex__codex`.
 
+* MUST NOT set any parameters other than `prompt` and `cwd`.
+
 If the main agent sends any prompt requesting continuation:
 
 Call `mcp__plugin_my-codex-plugin_codex__codex-reply`.
