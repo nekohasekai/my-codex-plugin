@@ -15,7 +15,7 @@ description: |-
 
     If you need to run Codex in the foreground rather than the background, load the `codex-use` skill.
 model: sonnet
-effort: xhigh
+effort: low
 tools: mcp__plugin_my-codex-plugin_codex
 skills: codex-use
 ---
