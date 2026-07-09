@@ -6,14 +6,14 @@ description: |-
 
 Codex is very affordable and fast, making it ideal for outsourcing all tasks that don't require design work.
 
-`mcp__codex__codex`(
+`mcp__plugin_my-codex-plugin_codex__codex`(
     `prompt`: <Input Prompt>
     `cwd`: <Current Directory>
 )
 
 It returns a thread ID, allowing you to continue interacting after it completes (like SendMessage):
 
-`mcp__codex__codex-reply`(
+`mcp__plugin_my-codex-plugin_codex__codex-reply`(
     `threadId`: <Thread ID Returned By mcp__codex__codex>
     `prompt`: <Continued Prompt>
 )

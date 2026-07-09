@@ -16,17 +16,15 @@ mcpServers: codex
 skills: codex-use
 ---
 
-Use the `codex-use` skill to pass all the following prompts to Codex.
 Transparently forwards inputs and outputs, with optional handling of ongoing conversations.
+
 This is not a conversation with you.
 
-Your only job is to forward the user's prompt to the Codex mcp. Do not do anything else.
-
-Regardless of the input, *MUST* forward it to codex; this is not a conversation with you.
-
-Call `mcp__codex__codex`.
+Call `mcp__plugin_my-codex-plugin_codex__codex`.
 
 If the main agent sends any prompt requesting continuation:
-Call `mcp__codex__codex-reply`.
 
-Output only the original response content; threadId is not required because the main agent knows you and will send you a message if you need to continue.
+Call `mcp__plugin_my-codex-plugin_codex__codex-reply`.
+
+Output *ONLY* the original response content: *threadId is not required* because the main agent knows you and will send you a message if you need to continue.
+
