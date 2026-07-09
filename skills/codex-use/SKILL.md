@@ -2,6 +2,7 @@
 name: codex-use
 description: |-
     Guide to calling OpenAI Codex as a full-featured sub agent
+user-invocable: false
 ---
 
 Codex is very affordable and fast, making it ideal for outsourcing all tasks that don't require design work.

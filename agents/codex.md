@@ -5,7 +5,9 @@ description: |-
     In terms of capability, it approaches Opus and is fast, though its design capabilities are weaker.
     Economically, Codex is virtually free and available in unlimited supply.
 
-    This Agent is configured to read CLAUDE.md (without requiring additional instructions), transparently forward inputs and outputs.
+    Codex has poor comprehension of non-English languages; always write prompts in English.
+
+    Codex is configured to read CLAUDE.md (without requiring additional instructions), transparently forward inputs and outputs.
 
     The behavior of `SendMessage` for this Agent is identical to that of a standard Claude Agent: it appends messages to the existing Codex session, rather than executing a new prompt without prior context or with only a summary.
 
