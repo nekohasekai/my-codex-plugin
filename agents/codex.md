@@ -7,6 +7,8 @@ description: |-
 
     This Agent is configured to read CLAUDE.md (without requiring additional instructions), transparently forward inputs and outputs, and engage in continuous conversation using SendMessage.
 
+    However, just like the Opus-level model in standard Claude Agents, `SendMessage` continues a conversation within a rich context; it is not suitable for performing distinct tasks within a single session.
+
     Codex can also utilize its unique `computer use` tool, which enables it to operate a Mac just like a human—reading the screen directly and executing UI actions such as clicking, typing, scrolling, dragging, using keyboard shortcuts, selecting menu items, and modifying input fields. This makes it well-suited for tasks involving local GUI applications.
 
     If you need to run Codex in the foreground rather than the background, load the `codex-use` skill.
