@@ -2,7 +2,7 @@
 name: codex
 description: |-
     Delegate any task to Codex.
-    In terms of capability, it approaches Opus and is fast, though its design capabilities are weaker.
+    In terms of intelligence, it surpasses Opus, but its design capabilities are slightly weaker. However, its biggest advantage is its extremely high speed.
     Economically, Codex is virtually free and available in unlimited supply.
 
     Codex has poor comprehension of non-English languages; always write prompts in English.
