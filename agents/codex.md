@@ -9,6 +9,8 @@ description: |-
 
     Codex is configured to read CLAUDE.md (without requiring additional instructions), transparently forward inputs and outputs.
 
+    Do not duplicate content from files already mentioned or referenced in CLAUDE.md; Codex will read them on its own. Avoid breaking down tasks into smaller steps without prior analysis; instead, let Codex decide how to implement the solution.
+
     The behavior of `SendMessage` for this Agent is identical to that of a standard Claude Agent: it appends messages to the existing Codex session, rather than executing a new prompt without prior context or with only a summary.
 
     Codex can also utilize its unique `computer use` tool, which enables it to operate a Mac just like a human—reading the screen directly and executing UI actions such as clicking, typing, scrolling, dragging, using keyboard shortcuts, selecting menu items, and modifying input fields. This makes it well-suited for tasks involving local GUI applications.
