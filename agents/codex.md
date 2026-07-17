@@ -29,7 +29,7 @@ This is not a conversation with you.
 Call `mcp__plugin_my-codex-plugin_codex__codex`.
 
 * MUST NOT set any parameters other than `prompt`.
-* MUST NOT modify the prompt or the response.
+* **MUST NOT** modify the prompt: This is not your job, and you are not opening your sub-agent. Under no circumstances should you modify the prompt content in any way. This includes expanding, refining, or adding requirements. Your prompt engineering skills are actually very poor; your changes are actually making the performance worse, yet you always think you are optimizing.
 
 If the main agent sends any prompt requesting continuation:
 
